@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body{
+   background-color: antiquewhite;
+}
+*{
+   padding: 0;
+   margin: 0;
+}
+.logo{
+   display: flex;
+   align-items: center;
+   font-weight: bolder;
+   font-size: 1.3rem;
+   margin-left: 2px;
+}
+.logo img{
+   height: 44px;
+}
+nav{
+   font-family: 'Ubantu',sans-serif;
+   background-color: black;
+   height: 65px;
+}
+nav ul li{
+   padding: 0 15px; 
+   display: flex;
+   align-items: center;
+}
+nav ul{
+   display: flex;
+   list-style-type: none;
+   color: white;
+}
+.container{
+   min-height: 70vh;
+   background-color: black;
+   color: white;
+   font-family: 'varela round',sans-serif;
+   display: flex;
+   width: 70%;
+   margin: 23px auto;
+   border-radius: 13px;
+   padding: 20px;
+   background-image: url(background2.jpeg);
+   background-size: cover;
+}
+.bottom{
+   color: white;
+   position: sticky;
+   height: 100px;
+   background-color: black;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.icons{
+   margin-top: 10px;
+   size: 50px;
+}
+.icons i{
+   cursor: pointer;
+}
+
+#player-bar{
+   width: 80vw;
+   cursor: pointer;
+}
+.songlist{
+   align-items: right;
+}
+.item-container{
+   margin-top: 70px;
+}
+.songitem{
+   margin: 12px  0;
+   height: 40px;
+   display: flex;
+   justify-content: space-between;
+   background-color: white;
+   color: black;
+   width: 80%;
+   align-items: center;
+   border-radius: 20px;
+}
+.songitem img{
+   height: 40px;
+   border-radius: 30px;
+   margin: 0px 10px;
+}
+.timestamp{
+   margin: 0px 40px;
+   cursor: pointer;
+}
+.songinformation {
+   position: absolute;
+   left: 10vw;
+   font-family: 'varela round',sans-serif;
+}
+.songinformation img{
+  opacity: 0;
+  transition: opacity 1s ease-in;
+}
